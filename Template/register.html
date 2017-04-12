@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Koholo.com</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+    
+<body>
+    <h1 id="logga">koholo.com</h1>
+    <h2 id="logtext">...let's go shopping</h2>
+<nav id="navigation" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Koholo.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Hem</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontakt<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Kontakta oss</a></li>
+            <li><a href="#">För företag</a></li>
+            <li><a href="#">För privatpersoner</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Registrera dig</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Logga in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+    <h2 id="registerh2">Registrera dig här</h2>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputUsername" class="col-sm-2 control-label">Användarnamn</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" id="inputUsername" placeholder="Användarnamn" aria-describedby="usernameHelpInline">
+                    <small id="passwordHelpInline" class="text-muted">
+                      Använd endast A-Z
+                    </small>
+                </div>
+            <label for="inputPassword" class="col-sm-2 control-label">Lösenord</label>
+                <div class="col-sm-4">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Lösenord">
+                </div>
+          </div>
+            <div class="form-group">
+                <label for="inputFirstname" class="col-sm-2 control-label">Förnamn</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="inputFirstname" placeholder="Förnamn">
+                    </div>
+                <label for="inputLastname" class="col-sm-2 control-label">Efternamn</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="inputLastname" placeholder="Efternamn">
+                    </div>
+            </div>
+          <div class="form-group">
+              <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
+                <div class="col-sm-4">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                </div>
+              <label for="inputTel" class="col-sm-2 control-label">Mobil</label>
+                <div class="col-sm-4">
+                  <input type="tel" class="form-control" id="inputTel" placeholder="Mobil">
+                </div>
+          </div>
+                <div class="form-group">
+                    <label for="inputCompany" class="col-sm-2 control-label">Företagsnamn</label>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" id="inputCompany" placeholder="Företagsnamn (Valfritt)">
+                        </div>
+                    <label for="inputPersonal" class="col-sm-2 control-label">Org-nr/Pers-nr</label>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" id="inputPersonal" placeholder="Org-nr/Pers-nr">
+                        </div>
+                </div>
+        <div class="form-group">
+            <label for="comment" class="col-sm-2 control-label">Övriga kommentarer</label>
+            <div class="col-sm-4">
+                <textarea class="form-control" rows="4" id="comment"></textarea>
+            </div>
+        </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Jag godkänner de<button type="button" id="termsButton" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Allmänna villkoren
+</button>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" id="CreateButton" class="btn btn-default">Skapa konto</button>
+    </div>
+  </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Allmänna villkor</h4>
+      </div>
+      <div class="modal-body">
+          <h5>1. Allmänt</h5>
+          <p>Genom att registrera sig som användare på Koholo, förvärvar kunden, nedan kallad "Kontoinnehavaren", endast rätten att nyttja erbjudna tjänster i enlighet med Koholos allmänna villkor. Kontoinnehavaren godkänner härmed elektronisk leverans av meddelanden, regler och transaktioner från och till Koholo. Eventuella tilläggstjänster som beställs elektroniskt, exempelvis genom e-post eller via websida, levereras med skyldigheter och rättigheter enligt Koholos allmänna villkor om inget annat avtalats i avtal för respektive tilläggstjänst. Tjänster som tillhandahålls på www.koholo.com tillhör Koholo. Dessa allmänna villkor reglerar förhållandet mellan Kontoinnehavaren och Koholo vad gäller konton för	Koholo och andra tjänster, produkter och funktioner som tillhandahålls av Koholo under varumärket Koholo.com, nedan kallat "Systemet". Kontoinnehavaren använder en icke exklusiv nyttjanderätt till Systemet i enlighet med de allmänna villkoren. Koholo äger Systemet och Kontoinnehavaren har ingen rätt till ägande av Systemet. Abonnemang kan inte återförsäljas, överföras eller på annat sätt överlämnas av Kontoinnehavaren till tredje man utan Koholos samtycke i enlighet med paragraf 3 i detta avtal.
+</p>
+          <h5>2. Avtalstid och betalning</h5>
+          <p>Abonnemanget löper tillsvidare. Nyttjande av tilläggstjänsten produktnivå PRO löper under ett, två eller tre år och betalas för hela avtalsperioden via fakturabetalning. Upphörande av abonnemang sker med automatik efter att avtalet löpt ut, när betalning	uteblir eller när Kontoinnehavaren meddelat Koholo om detta via e-post. Kontoinnehavaren har då ej rätt till återbetalning. Koholo äger rätten att säga upp abonnemanget med omedelbar verkan om Kontoinnehavaren bryter mot någon av punkterna i de allmänna villkoren. Betalning sker genom faktura med 14 dagars betalningsvillkor. Ingen fakturaavgift tillkommer. Fakturahanteringen sköts av SveaWebpay.</p>
+          
+          <h5>3. Överlåtelse av abonnemang</h5>
+<p>Kontoinnehavaren äger endast rätt att överlåta abonnemanget efter medgivande av Koholo. Överlåtelsen och medgivandet skall ske via e-post.</p>
+
+          <h5>4. Koholos ansvar</h5>
+          <p>Koholo ansvarar för driften av den med Kontoinnehavaren överenskomna tjänsten i ingånget abonnemangsavtal, vilket bl a innefattar backup av Kontoinnehavarens data en gång per dygn. Koholo kan dock inte garantera att data går att återläsa till Kontoinnehavarens konto. Koholo ansvarar inte för direkta eller indirekta skador, ekonomiska förluster på grund av fel, fördröjningar, ofullkomligheter, avbrott, uteblivna leveranser i form av data, bristande tillgänglighet eller liknande omständigheter eller händelser. Indirekt skada avser men begränsas inte till förlust av data, hinder att uppfylla förpliktelser mot tredje man eller utebliven nytta av avtal. Eftersom tjänsten är avhängig att Internet fungerar normalt är Kontoinnehavaren införstådd med att avbrott, fördröjningar, buggar och liknande hinder på Internet inte utgör fel i tjänsten. Koholo utövar ingen kontroll över information eller material som finns på Koholos servrar. Koholo är inte heller skadeståndsskyldigt om någon gör intrång på Koholos servrar och datorresurser och skaffar sig tillgång till, förstör eller förvanskar information. Koholo ansvarar inte för eventuellt kränkande information som finns på Koholos servrar. För att värna om Kontoinnehavarens integritet hanterar Koholo all information om Kontoinnehavaren som konfidentiell. Dock kan Koholo via domstolsföreläggande åläggas att lämna ut sådana uppgifter om Kontoinnehavaren till berörda myndigheter. Abonnemangs- och samtalskostnader från Kontoinnehavarens tele- eller ip-operatör för uppkoppling till Koholo ligger utanför Koholos kontroll, varför Koholo inte ansvarar för sådana kostnader.</p>
+
+          <h5>5. Kontoinnehavarens ansvar</h5>
+          <p>Kontoinnehavaren är i förhållande till Koholo ensam ansvarig för all den information som överförs via Internet, samt för allt som publiceras i Kontoinnehavarens e-handelsbutik, inklusive länkade objekt, som tillhandahålls av Koholo. Kontoinnehavaren är följaktligen ansvarig för att såväl utländsk som i Sverige gällande upphovsrättslag, personuppgiftslag och andra svenska lagar och förordningar följs och att nödvändiga tillstånd finns för att samla in, lagra, bearbeta och sprida information. Kontoinnehavaren förbinder sig även att följa internationella överenskommelser och lagar samt andra regleringar som kan vara villkor för utnyttjande av hela eller delar av åtkomst i IP-nätet. Kontoinnehavaren är skyldig att anskaffa de licenser eller tillstånd från såväl privata aktörer som offentliga myndigheter, som krävs på grund av innehållet som laddats upp av Kontoinnehavaren eller Kontoinnehavarens Internetverksamhet. Koholo förbehåller sig rätt att fritt pröva om reglerna efterföljs av Kontoinnehavaren. Kontoinnehavaren förbinder sig även att inte göra obehörigt intrång i de resurser som är kopplade till IP- nätet i dess helhet och ej heller hos Koholo. Kontoinnehavaren ansvarar även för att allmänt accepterade etiska normer och att Koholos eller statlig myndighets anvisningar för bruk av tjänsten efterföljs. Kontoinnehavaren ansvarar ensam för alla eventuella skadeståndsanspråk som kan riktas mot honom från tredje man på grund av det innehåll som Kontoinnehavaren använder, laddar ner från Internet eller på annat sätt kommer i kontakt med vid brukande av tjänsten. Koholo äger rätten att säga upp abonnemanget med omedelbar verkan om Kontoinnehavaren bryter mot någon del av avtalet eller om Koholo anser Kontoinnehavaren olämplig. Uppsägningen sker per e-post. Kontoinnehavaren ansvarar för allt handlande denne utför via sin e-handelsbutik i form av korrespondens med e-post eller liknande. Kontoinnehavaren äger inte rätt att bruka systemresurser som går utanför det egna behovet, vilket innebär att Kontoinnehavaren ej kan utveckla tjänster som inte är relevanta för den egna domänens eller webbplatsens funktionalitet. Olika former för kontinuerlig överföring av filer till webbkontot som inte är till för uppdatering av hemsida, är förbjudet. Ett sådant exempel kan vara webcam-funktioner där en bild regelbundet uppdateras. Koholo tillåter inte heller några former av fil-depåer, varken för program eller musik. Kontot medger obegränsad trafikmängd såvida den trafik som besökare genererar är den som belastar trafikmängden. Koholo förbehåller sig rätten att bedöma den enskilde Kontoinnehavarens besöksantal och därmed trafikmängd utifrån Koholos förutsättningar att bibehålla god bandbredd så att inte andra Kontoinnehavare åsamkas skada. Koholo har därmed också rätt att säga upp konto av samma anledning. Där benämningen "obegränsat" anges av Koholo innebär det att tjänsterna erbjuds inom skäliga gränser för mjuk- och hårdvarans kapacitet. Koholo förbehåller sig rätten att i varje enskilt fall avgöra gränserna för vad som är skäligt. Om Kontoinnehavaren förbrukar mjuk- eller hårdvaruresurser som överstiger vad Koholo anser vara skäligt, äger Koholo rätt att stänga ner Kontoinnehavarens sidor med omedelbar verkan. Kontoinnehavaren äger rätt att till annan delegera drift av layout, uppdatering och liknande. Detta begränsar dock inte Kontoinnehavarens ansvar enligt detta avtal.</p>
+
+          <h5>6. Policys</h5>
+          <p>Koholo har en policy som inte tillåter innehåll eller hänvisningar till innehåll, som bland annat:
+a) Främjar hat, rasistiskt material eller liknande, beskriver eller visar grymma eller brutala våldshandlingar på ett sätt som gör att informationen verkar vara oskyldig.
+b) Kränker mänsklig värdighet.
+c) Glorifierar krig.
+d) Beskriver eller visar överfall, trakasserier eller sexuellt utnyttjande av barn.
+e) Beskriver eller visar sexuella handlingar mellan människor och djur.
+f) Kan påverka barn och unga personer omoraliskt eller skadligt.
+    Kontoinnehavare och dess användare har ensamt ansvar för allt innehåll som publiceras på servern, och för att säkerställa att den immateriella och andra äganderätter inte överträds av innehållet eftersom Koholo inte systematiskt övervakar eller utövar redaktionell uppsikt över innehållet i Kontoinnehavarens interna butik, förbehåller Koholo sig rätten att avlägsna vilken som helst länk till en tredje parts webbsida eller annat innehåll som enligt Koholos rimliga åsikt, kan kränka eller överträda någon lag eller en tredje parts rätt, av vilken som helst karaktär, eller på annat sätt gör, eller eventuellt gör Koholo skyldig till civil eller brottslig olydnad eller allmänt åtlöje. Kontoinnehavaren går med på att gottgöra och förklara fri från ansvarsskyldighet och med egna medel försvara Koholo från samtliga eller några som helst yrkanden om brott i enlighet med ovanstående policy. Kontoinnehavaren är skyldig att anskaffa de licenser eller tillstånd från de offentliga myndigheter som krävs på grund av innehållet som laddats upp av Kontoinnehavaren eller Kontoinnehavarens Internetverksamhet. Koholo vill inte, vare sig självt eller, att våra Kontoinnehavare skall figurera i samband med oseriös användning av Internet. Koholo förbehåller sig därför rätten till fri prövning av dessa villkor. Koholo har tillåtelse att göra kontroller av informationen på Kontoinnehavarens lagringsutrymme. Om en Kontoinnehavare bryter mot avtalet, förbehåller Koholo sig rätten att blockera den information som anses olämplig. är överträdelsen grov kan Kontoinnehavaren avstängas helt eller delvis från fortsatt bruk. Underhåll och skötsel av materialet utförs av Kontoinnehavaren via Koholos administrationsverktyg.</p>
+
+          <h5>7. Force majeure</h5>
+          <p> Koholo ansvarar ej för skada som beror på en omständighet utanför Koholos kontroll vars följder inte skäligen kunnat undvikas eller övervinnas, t.ex. krig, myndighetsingripande, inskränkningar i energitillförseln, arbetsmarknadsstörningar, förbud, restriktioner, uteblivna tillstånd, naturkatastrofer, olyckshändelser, ogynnsamma transport- eller väderleksförhållanden eller uteblivna leveranser från underleverantörer eller annan för vilken Koholo inte svarar. Koholo arbetar för att tjänsterna de erbjuder ska vara tillgängliga maximalt men kan inte ställas till ansvar vid störningar, avbrott, buggar eller när tjänsten eller delar av tjänsten inte går att nå.</p>
+
+          <h5> 8. Tvist</h5>
+          <p>Tvist med anledning av tillämpningen eller tolkningen av detta avtal skall avgöras av Borås Tingsrätt som första och enda instans och i enlighet med Svensk rätt.</p>
+
+          <h5>9. Ändringar i avtalet</h5>
+<p>Ändringar i avtalet träder i kraft omedelbart efter att de publicerats på vår hemsida. Ändringar ersätter det gamla avtalet.</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Stäng</button>
+      </div>
+    </div>
+  </div>
+</div>
+        </form>
+</div>
+    
+    <footer id="sidfot" class="footer">
+        <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
+    </footer>
+
+</body>
+</html>
