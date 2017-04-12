@@ -53,6 +53,10 @@
     background-color: #b50a0a;
 }
 
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: red;
+}
+
 .navbar-toggle {
     border: none;
 }
