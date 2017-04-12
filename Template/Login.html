@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Koholo.com</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+      <link rel="stylesheet" href="main.css">
+</head>
+    
+<body>
+    <h1 id="logga">koholo.com</h1>
+    <h2 id="logtext">...let's go shopping</h2>
+<nav id="navigation" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Koholo.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Hem</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontakt<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Kontakta oss</a></li>
+            <li><a href="#">För företag</a></li>
+            <li><a href="#">För privatpersoner</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Om oss</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Registrera dig</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Logga in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+    <section class="site-container padding-tb">
+		
+		<section class="card wow fadeInLeft">
+			
+			<h3 id="loginH3" class="wow fadeInDown" data-wow-delay="0.4s">Logga in</h3>
+
+			<form action="#" class="form" method="post">
+			    <div class="form__wrapper wow fadeInDown" data-wow-delay="0.5s">
+			        <input type="email" class="form__input" id="email" name="email">
+			        <label class="form__label" for="email">
+						<span class="form__label-content">Användarnamn</span>
+					</label>
+			     </div>
+
+			    <div class="form__wrapper wow fadeInDown" data-wow-delay="0.6s">
+			        <input type="password" class="form__input" id="password"  name="password">
+			        <label class="form__label" for="password">
+						<span class="form__label-content">Lösenord</span>
+					</label>
+			       
+			     </div>
+
+			    <div class="form__wrapper--submit wow fadeInLeft" data-wow-delay="0.7s">
+			    	<div class="form__input-submit">
+			        	<button type="submit" name="submit" id="LoginButton" class="btn btn-block">Logga in</button>
+			        </div>
+			    </div>
+			</form>
+			<div class="text-center text-small wow fadeInLeft" data-wow-delay="0.8s"><a href="#" class="modal__toggle">Glömt lösenordet?</a></div>
+			 
+			<div class="modal">
+				<a href="#" class="modal--close modal__toggle">&times;</a>
+				
+				<h3>Återställ lösenord</h3>
+
+				<p class="text-small">Ditt nya lösenord kommer skickas till denna mailadress.</p>
+
+				<form action="#" class="form2" method="post">
+				    <div class="form__wrapper">
+				        <input type="email" class="form__input" id="email" name="email">
+				        <label class="form__label" for="email">
+							<span class="form__label-content">Email</span>
+						</label>
+				    </div>
+
+					<div class="form__wrapper--submit">
+				    	<div class="form__input-submit">
+				        	<button type="submit" name="submit" class="btn btn-block">Skicka</button>
+				        </div>
+				    </div>
+
+			    </form>
+
+			</div><!-- /modal -->
+
+		</section><!-- /card -->
+
+
+			</section><!-- /site-container -->
+</div>
+    
+    <footer id="sidfot" class="footer">
+        <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
+    </footer>
+
+</body>
+</html>
