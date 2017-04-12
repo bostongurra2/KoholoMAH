@@ -66,7 +66,7 @@
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: #f5f5f5;
@@ -135,4 +135,24 @@
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: white;
+}
+
+
+/*CSS för register.html, resten ärvs från ovanstående*/
+#CreateButton{
+    background-color: red;
+    color: white;
+}
+
+#registerh2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#termsButton{
+    border-color: white;
+    background-color: white;
+    color: dodgerblue;
+    font-size: 14px;
 }
