@@ -1,3 +1,4 @@
+/*Simons CSS för startsida och bas design för resten av sidan*/
 #myCarousel, #myCarousel1, #myCarousel2 {
     width: 50%;
     height: 200px;
@@ -70,7 +71,7 @@
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #f5f5f5;
@@ -113,6 +114,14 @@
     border-color: #ccc;
 }
 
+#brandname:hover {
+    color: #b50a0a;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #b50a0a; 
+}
+
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -135,6 +144,11 @@
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #b50a0a;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: red;
+    color: #b50a0a;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
