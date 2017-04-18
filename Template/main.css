@@ -169,11 +169,27 @@
     font-family: 'Lobster', cursive;
 }
 
+#comment{
+    resize: none;
+}
+
 #termsButton{
     border-color: white;
     background-color: white;
     color: dodgerblue;
     font-size: 14px;
+}
+
+/* Jacob CSS för contact.html, resten ärvs från ovanstående*/
+
+#contacth2{
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+#ContactButton{
+    background-color: red;
+    color: white;
 }
 
 /*Khaleds CSS//CSS för Login.html, resten ärvs från ovan*/
