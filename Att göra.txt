@@ -1,0 +1,15 @@
+1. Lägg till Koholo's logga i sidhuvudet
+
+2. Lägg till den funktionalitet och de länkar som saknas
+(avancerad sökning, hur söker man osv)
+
+3. Plocka bort slide för rekommenderade produkter och utöka
+storlek för resterande
+
+4. Titta på eventuellt nytt färgschema
+
+5. Lägg till länk för "Sök butiker" och ta bort "För privatpersoner"
+
+6. Bygg "Om oss"
+
+

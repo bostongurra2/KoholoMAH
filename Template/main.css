@@ -22,11 +22,11 @@
 }
 
 .glyphicon-chevron-right {
-    color: red;
+    color: #417C81;
 }
 
 .glyphicon-chevron-left {
-    color: red;
+    color: #417C81;
 }
 
 
@@ -41,7 +41,7 @@
     font-style: bold;
     text-align: center;
     font-size: 400%;
-    color: red;
+    color: #73AC96;
     margin: auto;
 }
 
@@ -62,7 +62,7 @@
 }
 
 #navigation {
-    background-color: red;
+    background-color: #417C81;
     border: none;
 }
 
@@ -104,8 +104,12 @@
 
 #searchbtn {
     color: white;;
-    background-color: red;
+    background-color: #417C81;
     border-color: #ccc;
+}
+
+#searchbtn:hover {
+    background-color: #73AC96;
 }
 
 #categorybtn {
@@ -114,12 +118,16 @@
     border-color: #ccc;
 }
 
+#categorybtn:hover {
+    background-color: darkgray;
+}
+
 #brandname:hover {
-    color: #b50a0a;
+    color: #68979B;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #b50a0a; 
+    color: #68979B; 
 }
 
 .navbar-inverse .navbar-brand {
@@ -131,11 +139,11 @@
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    background-color: #b50a0a;
+    background-color: #68979B;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color: red;
+    background-color: #68979B;
 }
 
 .navbar-toggle {
@@ -143,12 +151,12 @@
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #b50a0a;
+    background-color: #68979B;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    background-color: red;
-    color: #b50a0a;
+    background-color: #417C81;
+    color: #68979B;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
