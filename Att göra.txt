@@ -4,11 +4,11 @@
 (avancerad sökning, hur söker man osv)
 
 3. Plocka bort slide för rekommenderade produkter och utöka
-storlek för resterande
+storlek för resterande (Klar!)
 
-4. Titta på eventuellt nytt färgschema
+4. Titta på eventuellt nytt färgschema (Klar!)
 
-5. Lägg till länk för "Sök butiker" och ta bort "För privatpersoner"
+5. Lägg till länk för "Sök butiker" och ta bort "För privatpersoner" (Klar!)
 
 6. Bygg "Om oss"
 
