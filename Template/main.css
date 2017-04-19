@@ -179,7 +179,7 @@
 }
 
 
-/* Jacob CSS för register.html, resten ärvs från ovanstående*/
+/* Jacob CSS för register.html, bas-design ärvs från ovanstående*/
 #CreateButton{
     background-color: red;
     color: white;
@@ -203,7 +203,7 @@
     font-size: 14px;
 }
 
-/* Jacob CSS för contact.html, resten ärvs från ovanstående*/
+/* Jacob CSS för contact.html, bas-design ärvs från ovanstående*/
 
 #contacth2{
     margin-bottom: 30px;
@@ -215,7 +215,18 @@
     color: white;
 }
 
-/*Khaleds CSS//CSS för Login.html, resten ärvs från ovan*/
+/* Jacob CSS för how-to.html, bas-design ärvs från ovanstående*/
+
+#how-to-h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.how-to-Section{
+    margin-top: 10px;
+}
+
+/*Khaleds CSS//CSS för Login.html, bas-design ärvs från ovan*/
 #loginH3{
     font-family: 'Lobster', cursive;
     color: black;
