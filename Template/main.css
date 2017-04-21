@@ -53,18 +53,8 @@
 }
 
 #logga {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: bold;
     text-align: center;
-    font-size: 400%;
-    color: #73AC96;
-    margin: auto;
-}
-
-#logtext {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    margin-top: 0;
+    margin-top: 1%;
     margin-bottom: 1%;
 }
 
@@ -181,9 +171,13 @@
 
 /* Jacob CSS för register.html, bas-design ärvs från ovanstående*/
 #CreateButton{
-    background-color: red;
+    background-color: #417C81;
     color: white;
     margin-bottom: 40px;
+}
+
+#CreateButton:hover {
+    background-color: #68979B;
 }
 
 #registerh2{
@@ -211,7 +205,7 @@
 }
 
 #ContactButton{
-    background-color: red;
+    background-color: #417C81;
     color: white;
 }
 
@@ -363,8 +357,8 @@ p {
   -moz-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   -o-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #831B1B 4%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #831B1B 4%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #417C81 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #417C81 4%);
   background-position: -400px 0;
   background-size: 400px 100%;
   background-repeat: no-repeat;
@@ -438,7 +432,7 @@ p {
  */
 .error {
   font-size: 1.4rem;
-  color: #831B1B;
+  color: #68979B;
   display: block;
 }
 
@@ -447,7 +441,7 @@ p {
   display: inline-block;
   padding: 0.6em 1.5em;
   border-radius: 2px;
-  background-color: red;
+  background-color: #417C81;
   color: #fff;
   border: 0;
   outline: none;
@@ -459,7 +453,7 @@ p {
   transition: all 0.2s ease;
 }
 #LoginButton:focus, #LoginButton:hover {
-  background-color: #999;
+  background-color: #68979B;
 }
 .btn.btn-block {
   width: 100%;

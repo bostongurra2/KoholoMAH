@@ -1,7 +1,7 @@
-1. Lägg till Koholo's logga i sidhuvudet
+1. Lägg till Koholo's logga i sidhuvudet (Klar!)
 
 2. Lägg till den funktionalitet och de länkar som saknas
-(avancerad sökning, hur söker man osv)
+(avancerad sökning, hur söker man osv) (Kommer snart)
 
 3. Plocka bort slide för rekommenderade produkter och utöka
 storlek för resterande (Klar!)
