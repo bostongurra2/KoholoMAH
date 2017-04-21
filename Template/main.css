@@ -220,6 +220,17 @@
     margin-top: 10px;
 }
 
+/* Jacob CSS för how-to.html, bas-design ärvs från ovanstående*/
+
+#abouth2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.about-section{
+    margin-top: 10px;
+}
+
 /*Khaleds CSS//CSS för Login.html, bas-design ärvs från ovan*/
 #loginH3{
     font-family: 'Lobster', cursive;
