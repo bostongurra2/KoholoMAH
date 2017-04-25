@@ -231,6 +231,16 @@
     margin-top: 10px;
 }
 
+/* Jacob CSS för reset.html, bas-design ärvs från ovanstående*/
+#reset-password-button{
+    background-color: #417C81;
+    color: white;
+}
+
+#reseth2{
+    font-family: 'Lobster', cursive;
+}
+
 /*Khaleds CSS//CSS för Company.html, bas-design ärvs från ovan*/
 
 #companyh2{

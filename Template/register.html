@@ -57,17 +57,14 @@
             <input type="hidden" name="_token" value="1uu6VeHEmgP9L3Y5ZdCWFlL2Zr5WJbwZfNuXTMPF">
 
             <div class="form-group">
-                <label for="inputUsername" class="col-sm-2 control-label">Användarnamn</label>
-                <div class="col-sm-4">
-                    <input type="text" class="form-control" id="inputUsername" name="username" value="" placeholder="Användarnamn" aria-describedby="usernameHelpInline" required>
-                    <small id="passwordHelpInline" class="text-muted">
-                        Använd endast A-Z
-                    </small>
-                </div>
-                
                 <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
                 <div class="col-sm-4">
                     <input type="email" class="form-control" id="inputEmail" name="email" value="" placeholder="E-mail" required>
+                </div>
+                
+                <label for="inputEmail" class="col-sm-2 control-label"> Bekräfta E-mail</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="Email-confirm" name="email" value="" placeholder="Bekräfta E-mail" required>
                 </div>
             </div>
 
@@ -97,18 +94,26 @@
             </div>
 
             <div class="form-group" >
+                
+                <label for="inputUsername" class="col-sm-2 control-label">Användarnamn</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputUsername" name="username" value="" placeholder="Användarnamn" aria-describedby="usernameHelpInline" required>
+                    <small id="passwordHelpInline" class="text-muted">
+                        Använd endast A-Z
+                    </small>
+                </div>
                 <label for="inputTel" class="col-sm-2 control-label">Mobil</label>
                 <div class="col-sm-4">
                     <input type="tel" class="form-control" id="inputTel" name="mobile_phone" value="" placeholder="Mobil" required>
                 </div>
+            </div>
 
+        <div class="form-group" >
                 <label for="inputCompany" class="col-sm-2 control-label">Företagsnamn</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="inputCompany" name="company_name" value="" placeholder="Företagsnamn (Valfritt)">
                 </div>
-            </div>
-
-        <div class="form-group" >
+            
                 <label for="inputPersonal" class="col-sm-2 control-label">Org-nr/Pers-nr</label>
                     <div class="col-sm-4">
                         <input type="text" class="form-control" id="inputPersonal" name="per_number" value="" placeholder="Org-nr/Pers-nr">
@@ -116,12 +121,20 @@
         </div>
             
              <div class="form-group" >
+                 <label for="supscription" class="col-sm-2 control-label">Välj abonnemang</label>
+                 <div class="col-sm-4">
+                     <select class="form-control">
+                        <option>PRO 1 år - 3900 SEK + moms</option>
+                        <option>PRO 2 år - 6400 SEK + moms</option>
+                        <option>PRO 3 år - 8400 SEK + moms</option>
+                     </select>
+                 </div>
                 <label for="comment" class="col-sm-2 control-label">Övriga kommentarer</label>
                 <div class="col-sm-4">
                     <textarea class="form-control" rows="4" id="comment" name="other_comments"></textarea>
                 </div>
             </div>
-        </div>
+
             
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
@@ -138,6 +151,7 @@
                     <button type="submit" id="CreateButton" class="btn btn-default">Skapa konto</button>
                 </div>
             </div>
+        </div>
 <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
