@@ -76,8 +76,9 @@
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
+     
+    position: relative;
+    height: 5%;
     width: 100%;
     background-color: #f5f5f5;
     display: block;
@@ -471,12 +472,19 @@ p {
   display: block;
 }
 
-#ProductWrapper{
-    
 
- 
+html, body {
+    height: 100%;
 }
 
+
+#ProductWrapper{
+    
+    min-height: 95%;
+  
+    
+ 
+}
 
 .ProductDiv{
     height:300px;
