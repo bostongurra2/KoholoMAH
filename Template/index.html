@@ -41,7 +41,7 @@
             <li><a href="Company.html">För företag</a></li>
           </ul>
         </li>
-        <li><a href="how-to.html">Så här funkar det</a></li>
+        <li><a href="how-to.html">Shoppa</a></li>
         <li><a href="about.html">Om oss</a></li>
         <li><a href="#">Butiker</a></li>
       </ul>
@@ -86,10 +86,48 @@
                 <input type="text" class="form-control" name="x" placeholder="Sök produkt...">
                 <span class="input-group-btn">
                     <button id ="searchbtn" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                <button id="searchinfo" type="button" class="btn btn-default" data-toggle="modal" data-target="#Searchinfo">
+                    <span class="glyphicon glyphicon-info-sign"></span>
+                </button>
                 </span>
-            </div>
         </div>
 	</div>
+        <!-- Modal -->
+            <div class="modal fade" id="Searchinfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel">Så här söker du produkter</h3>
+                            </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <h4 class="col-sm-4">Sökord</h4>
+                                        <h4 class="col-sm-8">Beskrivning</h4>
+                                    </div>
+                                    <div>
+                                        <dl class="row">
+                                            <dt class="col-sm-4">miles davis</dt>
+                                            <dd class="col-sm-8">Matchar sökord i produktnamn eller produktbeskrivning.
+Träff på produktnamn visas överst.</dd>
+                                            <dt class="col-sm-4">miles davis remaster*</dt>
+                                            <dd class="col-sm-8">Matchar även ord med remaster inklusive ändelser som t ex remastered.</dd>
+                                            <dt class="col-sm-4">miles davis -remastered</dt>
+                                            <dd class="col-sm-8">Matchar sökorden och gallrar bort produkter med remastered.</dd>
+                                            <dt class="col-sm-4">"miles davis remastered"</dt>
+                                            <dd class="col-sm-8">Matchar exakt sökfras. Tar ej med t ex davis miles remastered.</dd>
+                                        </dl>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                        <p class="text-center">Notera att vi även har produkter beskrivna på engelska, tyska, norska, finska & italienska.</p>
+                                        <p class="text-center">TIPS! Sökning i sökrutan kan även kombineras med den utökade sökningen.</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+</div>
 </div>
     <div id="slides" class="container">
   <h2 class="popular">Populära produkter</h2>
@@ -139,7 +177,13 @@
           </div>
           
       </div>
+<<<<<<< HEAD
 </div>
+=======
+      <div class="pagination"></div>
+    </div>
+   
+>>>>>>> origin/master
         
     <footer id="sidfot" class="footer">
         <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
