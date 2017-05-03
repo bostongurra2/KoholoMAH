@@ -111,10 +111,20 @@
     color: white;;
     background-color: #417C81;
     border-color: #ccc;
+    width: 100%;
+    
 }
 
 #searchbtn:hover {
     background-color: #73AC96;
+}
+
+#searchinfo{
+    border-color: white;
+}
+
+#searchinfo:hover {
+    background-color: white;
 }
 
 #categorybtn {
