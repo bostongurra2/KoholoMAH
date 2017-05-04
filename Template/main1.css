@@ -465,7 +465,7 @@ p {
 
 .footer {
      
-    margin-top:15%;
+    margin-top:5%;
     width: 100%;
     background-color: #f5f5f5;
     display: block;
@@ -478,26 +478,25 @@ p {
 
 
 
-#sortering{
-    
-    height:5%;
-    box-shadow:0px 0px 1px;
-    margin-bottom:1%;
-    
-}
+
+
+
 
 #filter{
-    
-    height:50px;
-    
-     box-shadow:0px 0px 1px;
-    
+    width:100%;
+    float:left;
+   
     
     
     
 }
 
-
+#filter>a{
+    
+    color:black;
+    
+    
+}
 
 #sfdiv{
     
@@ -519,14 +518,15 @@ p {
 
 html, body {
     height: 100%;
+    width:100%;
 }
 
 
 #ProductWrapper{
     
     min-height: 85%;
-  
-    
+    margin-top:10%;
+    clear:both;
  
 }
 
