@@ -180,10 +180,12 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 #searchbtn {
-    color: white;;
+    color: white;
     background-color: #417C81;
     border-color: #ccc;
     width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     
 }
 
