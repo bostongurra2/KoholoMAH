@@ -44,6 +44,7 @@ a.socialIcon:hover, .socialHoverClass {
 	display:inline-block;
 	position:relative;
 	margin:0 auto 0 auto;
+    margin-top: 3%;
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
 	border-radius:50%;
@@ -129,6 +130,11 @@ a.socialIcon:hover, .socialHoverClass {
     margin-bottom: 1%;
 }
 
+#logo {
+    height: 10%;
+    width: 10%;
+}
+
 .popular {
     font-family: 'Lobster', cursive;
     font-style: bold;
@@ -164,7 +170,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 #searchhead {
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     font-family: 'Lobster', cursive;
     font-style: bold;
@@ -555,4 +561,20 @@ p {
 .btn.btn-block {
   width: 100%;
   display: block;
+}
+
+#productfigure{
+	
+	width: 98%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+}
+
+#productimage{
+	float: right;
 }
