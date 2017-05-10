@@ -578,3 +578,10 @@ p {
 #productimage{
 	float: right;
 }
+
+/* Jacob CSS för register.html, alignar text till vänster.*/
+@media (min-width: 768px){
+    .form-horizontal .control-label {
+        text-align: left;
+}
+}
