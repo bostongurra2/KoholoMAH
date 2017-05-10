@@ -185,6 +185,12 @@ a.socialIcon:hover, .socialHoverClass {
     margin-left: 10%;
 }
 
+.scrollable-menu{
+    height: auto;
+    max-height: 350px;
+    overflow-x: hidden;
+}
+
 #searchbtn {
     color: white;
     background-color: #417C81;
