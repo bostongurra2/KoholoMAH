@@ -1,5 +1,6 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
 
+/*Style för header på butikssida*/
 #storelogo {
     height: 74px;
     width: 95px;
@@ -19,6 +20,8 @@
     text-align: center;
 
 }
+
+/*Style för sökfältets knapp*/
 .btn-primary {
     background-color: #417C81;
     border: none;
@@ -32,6 +35,8 @@
     margin-top: -1px;
     padding: 6px 20px;
 }
+
+/*Style för knappar i menyn*/
 .input-group-btn .btn-group {
     display: flex !important;
 }
@@ -52,6 +57,8 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+/*Style för socialmedier knapparna*/
 .social-circle > li > a {
     background-color: lightgray;
 }
@@ -136,10 +143,12 @@ a.socialIcon:hover, .socialHoverClass {
  background-color: #D3D3D3;   
 }
 
+/*Style för bildspel*/
 .slick-prev:before, .slick-next:before { 
     color: #68979B !important;
 }
 
+/*Style för enskilda bilder i bildspelen*/
 .cl {
   height:150px;
   padding:10px;
@@ -177,6 +186,7 @@ a.socialIcon:hover, .socialHoverClass {
   cursor: pointer; 
 }
 
+/*Style för logotyp och dess div*/
 .logga {
     text-align: center;
     margin-top: 1%;
@@ -188,6 +198,7 @@ a.socialIcon:hover, .socialHoverClass {
     width: 220px;
 }
 
+/*Style för rubriker, bildspel*/
 .popular {
     font-family: 'Lobster', cursive;
     font-style: bold;
@@ -196,6 +207,7 @@ a.socialIcon:hover, .socialHoverClass {
     text-align: center;
 }
 
+/*Färgstyle för navigationen*/
 #navigation {
     background-color: #417C81;
     border: none;
@@ -205,6 +217,7 @@ a.socialIcon:hover, .socialHoverClass {
     color: white;
 }
 
+/*Style för footer*/
 .footer {
     position: fixed;
     bottom: 0;
@@ -222,6 +235,7 @@ a.socialIcon:hover, .socialHoverClass {
     margin-top: 1%;
 }
 
+/*Style för rubrik, söka produkter*/
 #searchhead {
     margin-top: 2%;
     text-align: center;
@@ -243,7 +257,7 @@ a.socialIcon:hover, .socialHoverClass {
     max-height: 350px;
     overflow-x: hidden;
 }
-
+/*Style för sökknapp*/
 #searchbtn {
     color: white;
     background-color: #417C81;
@@ -266,6 +280,7 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: white;
 }
 
+/*Style för kategoriknapp*/
 #categorybtn {
     color: white;;
     background-color: dimgray;
@@ -276,10 +291,12 @@ a.socialIcon:hover, .socialHoverClass {
     background-color: darkgray;
 }
 
+/*Style för "Koholo.com" i menyn*/
 #brandname:hover {
     color: #68979B;
 }
 
+/*Färgschema för menyn*/
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #68979B; 
 }
