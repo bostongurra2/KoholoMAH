@@ -226,20 +226,6 @@
     color: black;
 }
 
-h3{
-    color: red;
-    font-size: 40px;
-    font-weight: normal;
-    margin-bottom: 22px;
-    margin-top: 0px;
-	display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-
-}
-
 /* Basic Reset */
 *,
 *:after,
@@ -247,11 +233,6 @@ h3{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-h4 {
-  font-size: 1.8rem;
-  font-weight: 300;
 }
 
 .lead {

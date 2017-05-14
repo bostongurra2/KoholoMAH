@@ -1,8 +1,8 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
 
 #storelogo {
-    width: 5%;
-    height: 5%;
+    height: 74px;
+    width: 95px;
 }
 
 .storedescription {
@@ -17,6 +17,7 @@
 
 .storelink {
     text-align: center;
+
 }
 .btn-primary {
     background-color: #417C81;
@@ -183,8 +184,8 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 #logo {
-    height: 10%;
-    width: 10%;
+    height: 110px;
+    width: 220px;
 }
 
 .popular {
@@ -642,4 +643,22 @@ p {
     .form-horizontal .control-label {
         text-align: left;
 }
+    #adv-search {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 768px){
+    .storedescription {
+        font-size: 100%;
+}
+
+    .storecategory {
+        font-size: 100%;
+}
+    
+    .storelink {
+       font-size: 100%; 
+    }
 }
