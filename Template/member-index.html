@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Koholo.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</head>
+    
+<body>
+    <div class="logga">
+        <img id="logo" src="logo-koholo.png">
+    </div>
+    
+<nav id="navigation" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="brandname" class="navbar-brand" href="index.html">Koholo.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"> 
+            <li><a href="member-index.html">Mina sidor</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mina butiker<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Hantera butiker & produkter</a></li>
+            <li><a href="member-info.html">Produktimport</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span> Logga ut</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+    
+    <div class="container">
+        <h3 id="memberh2">Välkommen till Mina Sidor</h3>
+        <h4 id="memberh4">Här administrerar du din butik och dina produkter</h4>
+        
+        <form id="member-readonly" class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-sm-5">
+                    <input type="email" class="form-control" id="inputEmail" name="email" value="" placeholder="E-mail" readonly>
+                </div>
+                <div class="col-sm-5">
+                    <input type="password" class="form-control" id="inputPassword" name="password" value="" placeholder="Lösenord" readonly>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputFirstname" name="firstname" value=""placeholder="Förnamn" readonly>
+                </div>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputLastname" name="lastname" value="" placeholder="Efternamn" readonly>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputUsername" name="username" value="" placeholder="Användarnamn" aria-describedby="usernameHelpInline" readonly>
+                </div>
+                <div class="col-sm-5">
+                    <input type="tel" class="form-control" id="inputTel" name="mobile_phone" value="" placeholder="Mobil" readonly>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputCompany" name="company_name" value="" placeholder="Företagsnamn (Valfritt)" readonly>
+                </div>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputPersonal" name="per_number" value="" placeholder="Org-nr/Pers-nr" readonly>
+                </div>
+            </div>
+            
+        <div class="form-group">
+                <div class="col-sm-5">
+                    <a id="EditMember-button" class="btn btn-default" href="edit-member.html" role="button">Redigera Uppgifter</a>
+                </div>
+        </div>
+    </form>
+        <div class="col-sm-10">
+            <h3 class="memberh3">Så här kommer du igång</h3>
+                <ul>
+                    <li>Skapa din butik - [Hantera butiker & produkter]</li>
+                    <li>Ladda upp produkter manuellt (BAS) - [Hantera butiker & produkter/Produkter] eller</li>
+                    <li>Ladda upp alla produkter samtidigt via autoinläsning (PRO) - [Massimport av produkter]</li>
+                    <li>Skapa undersidor, t ex. Köpvillkor - [Hantera butiker & produkter/Sidor]</li>
+                </ul>
+        </div>
+        
+        <div class="col-sm-10">
+            <h3 class="memberh3">Så här fungerar din butik</h3>
+                <ul>
+                    <li>När du laddat upp minst en produkt visas din butik i portalen</li>
+                    <li>När besökare klickar på din produkt hamnar denne på produktsidan i din interna butik</li>
+                    <li>När besökare klickar på din butikslänk hamnar denne i din interna butik</li>
+                    <li>När besökare lägger en beställning i din interna butik så får du ett mail eller så väljer du att de lägger ordern i din ordinarie e-butik via direktlänk.</li>
+                </ul>
+        </div>
+        
+        <div class="col-sm-10">
+            <h3 class="memberh3">Kontakta Oss</h3>
+            <h5>Behöver du hjälp eller undrar över något, kontakta oss:</h5>
+                <ul>
+                    <li>Via mail på support@koholo.com</li>
+                    <li>Om du har eller vill ha ett PRO-abonnemang, ring Adam Lundberg på telefon 070-791 35 72 måndag till fredag, 9.00-17.00.</li>
+                </ul>
+        </div>
+    </div>
+   <footer id="sidfot" class="footer">
+        <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

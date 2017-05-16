@@ -748,3 +748,19 @@ p {
        font-size: 100%; 
     }
 }
+
+
+/*Jacob CSS for member-index.html*/
+
+#EditMember-button{
+    background-color: #417C81;
+    color: white;
+}
+
+#member-readonly{
+    padding-top: 10px;
+}
+
+#member-readonly > .form-group > .col-sm-5 > input{
+    margin-top: 5px;
+}

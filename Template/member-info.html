@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Koholo.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</head>
+    
+<body>
+    <div class="logga">
+        <img id="logo" src="logo-koholo.png">
+    </div>
+    
+<nav id="navigation" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="brandname" class="navbar-brand" href="index.html">Koholo.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"> 
+            <li><a href="member-index.html">Mina sidor</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mina butiker<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Hantera butiker & produkter</a></li>
+            <li><a href="member-info.html">Produktimport</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span> Logga ut</a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+    
+    <div class="container">
+        <div class="col-sm-10">
+            <h3 id="memberh2">Massimport av produkter (endast PRO)</h3>
+                <p>Har du många produkter i din egen webbutik läser vi snabbt in dessa i din butik hos Koholo genom "Autoinläsning". För att göra detta behöver du skapa en exportfil med dina produkter, vilket är enkelt för den som byggt din webbutik. Många e-butiker har redan färdiga prisfiler till Pricerunner, Prisjakt med flera. Dessa filer fungerar även utmärkt för oss.</p>
+        </div>
+        
+        <div class="col-sm-10">
+            <h3 id="memberh2">Så här funkar Autoinläsning</h3>
+                <p>Hanteringen av dina exportfiler administrerar du i din egen webbutiks import/export-del där du även sparar exportprofilen i fall du vill göra om exporten. Du lägger sedan filen på din webbserver och meddelar oss sökvägen till denna. Vi läser sedan in alla dina produkter till din interna butik hos oss, vilket vi gör regelbundet i fall att du har uppdaterat filen.</p>
+                <p class="col-sm-9">Filnamnet på din exportfil kan exempelvis vara: Tillkoholo.php, TillKoholo.csv eller Tillkoholo.txt ..... 
+http//www.DinSida.se/Tillkoholo.php</p>
+        </div>
+        <div class="col-sm-10">
+                <h5>Denna fil bör innehålla dessa data i valfri ordning:</h5>
+                <p>Produktnamn;Beskrivning;Pris;Länk till produktbild;Länk till din produktsida;Produktkategori;Valuta (Ny rad)</p>
+                <p>Produktnamn;Beskrivning;Pris;Länk till produktbild;Länk till din produktsida;Produktkategori;Valuta (Ny rad)</p>
+                <p>Produktnamn;Beskrivning;Pris;Länk till produktbild;Länk till din produktsida;Produktkategori;Valuta (Ny rad)</p>
+                <p><em>Tillåtna tecken som separerar datan är:
+Tab
+; (semikolon)</em></p>
+        </div>
+        
+    </div>
+    
+<footer id="sidfot" class="footer">
+        <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
