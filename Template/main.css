@@ -1,5 +1,15 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
 
+/*Style för redirectsida*/
+#redirectimg {
+    margin-top: 20%;
+}
+
+#redirtext {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
 /*Style för produkt modal*/
 .btn-success {
     float: left;
