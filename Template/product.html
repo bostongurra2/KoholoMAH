@@ -28,7 +28,6 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Hem</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontakt<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -48,28 +47,35 @@
   </div>
  </nav>
   
-<div class="container">
-   <a href="products.html">»Gå tillbaka till sökresultatet</a>
-	<br>
-	<div>
-	<figure id="productfigure">
-		<img id="productimage" src="https://riverisland.scene7.com/is/image/RiverIsland/284732_main?$CrossSellProductPage514$" alt="jeanstest">
-		<p>Produkt:</p>
-		<p>Pris:</p>
-		<p>Beskrivning:</p>
-		<div>
-			<figure valign="bottom">
-				<form method="POST" action=""><input type="hidden" name="ProductsId" value="">
-					<input type="hidden" name="WebbShopId" value="">
-				</form>
-				<br>
-				<a href="" onclick="" style="color:#ffffff;font-family:Arial;font-size:12px;font-weight:bold;">» Beställ produkt i ordinarie e-butik</a>
-			</figure>
-		  </div>
-	</figure>
-	<br>
-	</div>
-	<span style="color:black;font-family:Arial;font-size:18px;">Hos oss får alla privatpersoner en kostnadsfri onlinebutik - <a href="register.html" style="font-family:Arial;font-size:18px;">Registrera dig nu!</a></span>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h3 class="productinfoheader">Jeans & Stuff</h3>
+        <p class="productinfo">Levi's</p>
+        <p>511 Slim Fit Evolution Creek</p>
+        <p class="productinfo">1099 :-</p>
+        
+        <img class="modalimage" src="byssor.jpg">
+          
+        <h4 class="descriptionheader">Beskrivning</h4>
+        <p class="productdescription">Ett par jeans med modern smal passform med utrymme för rörelse, en klassiker från och med nu. Dessa jeans sitter under midjan med en smal passform över höft och lår och smala ben.</p>
+          
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-success">Beställ</button>
+      </div>
+    </div>
+
+  </div>
 </div>
     
     <footer id="sidfot" class="footer">

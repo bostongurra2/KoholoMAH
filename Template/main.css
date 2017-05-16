@@ -1,5 +1,45 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
 
+/*Style för produkt modal*/
+.btn-success {
+    float: left;
+}
+.modal-body {
+    height: 100%;
+}
+
+.modal-body > p, h3 {
+    width: 50%;
+    margin-right: 0;
+    display: inline-block;
+}
+.modalimage {
+    position: relative;
+    bottom: 120px;
+    float: right;
+    width: 30%;
+}
+
+.productinfoheader {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+
+}
+
+.productinfo {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 200%;
+}
+
+.descriptionheader {
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.productdescription {
+    font-size: 90%;
+}
 /*Style för header på butikssida*/
 #storelogo {
     height: 74px;
@@ -667,6 +707,35 @@ p {
 }
 
 @media (max-width: 768px){
+    
+.modal-body > p, h3 {
+    width: 100%;
+    display: inline-block;
+}
+.modalimage {
+    position: static;
+    bottom: 0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    float: left;
+    width: 100%;
+}
+
+.productinfoheader {
+    font-family: 'Lobster', cursive;
+    font-size: 250%;
+
+}
+
+.productinfo {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 200%;
+}
+
+.productdescription {
+    font-size: 90%;
+}
     .storedescription {
         font-size: 100%;
 }
