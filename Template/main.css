@@ -2,6 +2,7 @@
 
 #wrapper {
     margin-bottom: 20%;
+  
 }
 /*Style för redirectsida*/
 #redirectimg {
@@ -300,6 +301,15 @@ a.socialIcon:hover, .socialHoverClass {
 }
 /*Style för sökknapp*/
 #searchbtn {
+    color: white;
+    background-color: #417C81;
+    border-color: #ccc;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+#searchbtn1 {
     color: white;
     background-color: #417C81;
     border-color: #ccc;
@@ -906,6 +916,8 @@ body {
 
 
 @media screen and (max-width: 415px) {
+    
+  
 
 #searchbtn {
     
@@ -936,12 +948,18 @@ body {
      
 }
 
-.dropbtn {
+
+    
+}
+
+
+
+#dropadvance {
     
     background-color:#417C81;
     color: white;
    
-    font-size: 16px;
+    
     border: none;
     cursor: pointer;
     padding: 10px 15px;
@@ -949,8 +967,8 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
-    
-}
+
+
 
 .dropdown1 {
     position: relative;
@@ -989,29 +1007,41 @@ body {
 #filtercontainer{
     width:100%;
     box-shadow: 0 10px 10px -10px;
-    
+ 
 }
 #dropcontainer{
     
 width:121px;
-height:55px;
+
 clear:both;
     
 }
 
-#advancefilterbar{
-    width:36%;
-    margin-left:32%;
-    padding:3px;
-    background-color:white;
-  
+#advancedfilterbar{
+    width:auto;
+    margin-bottom:20px;
+}   
+
+
+#headpanel>a{
     
-    
+color:black;
+font-size:12px;
+
 }
 
 .panel-default>.panel-heading {
-    color: black;
-    background-color: white;
-    border-color: white;
+
+}
+
+#divpanel{
+  box-shadow:0px 0px 1px;
+   border-radius:2px;
+    
+}
+
+#headpanel,footpanel{
+    
+    padding:5px;
     
 }

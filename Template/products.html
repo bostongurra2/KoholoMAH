@@ -51,47 +51,103 @@
   </div>
     
  </nav>
-        <div id="sfdiv" class="col-lg-8 col-lg-offset-2">
-		    <div id="searchF" class="input-group">
+  
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <div class="container">
+    <div class="row">
+        
+        <div class="col-md-6 col-md-offset-3">
+		    <div class="input-group">
                 <div class="input-group-btn search-panel">
                     <button type="button" id="categorybtn" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                     	<span id="search_concept">Kategori</span> <span class="caret"></span>
                     </button>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="#contains">Contains</a></li>
-                      <li><a href="#its_equal">It's equal</a></li>
-                      <li><a href="#greather_than">Greather than ></a></li>
-                      <li><a href="#less_than">Less than</a></li>
-                      <li class="divider"></li>
-                      <li><a href="#all">Anything</a></li>
+                    <ul class="dropdown-menu scrollable-menu" role="menu">
+                        <li value="Barn & Leksaker"><a>Barn & Leksaker</a></li>
+                        <li value="Böcker & Tidningar"><a>Böcker & Tidningar</a></li>
+                        <li value="Bygg & Renovering"><a>Bygg & Renovering</a></li>
+                        <li value="Djur"><a>Djur</a></li>
+                        <li value="Elektronik & Datorer"><a>Elektronik & Datorer</a></li>
+                        <li value="Film, Musik & Spel"><a>Film, Musik & Spel</a></li>
+                        <li value="Glasögon & Linser"><a>Glasögon & Linser</a></li>
+                        <li value="Hälsa & Skönhet"><a>Hälsa & Skönhet</a></li>
+                        <li value="Hem & Trädgård"><a>Hem & Trädgård</a></li>
+                        <li value="Hobby & Musikinstrument"><a>Hobby & Musikinstrument</a></li>
+                        <li value="Industri & Verktyg"><a>Industri & Verktyg</a></li>
+                        <li value="Internetvaruhus"><a>Internetvaruhus</a></li>
+                        <li value="Kläder & Mode"><a>Kläder & Mode</a></li>
+                        <li value="Konst & Hantverk"><a>Konst & Hantverk</a></li>
+                        <li value="Kontor & Skola"><a>Kontor & Skola</a></li>
+                        <li value="Mat, Dryck & Tobak"><a>Mat, Dryck & Tobak</a></li>
+                        <li value="Mobil & Telefoni"><a>Mobil & Telefoni</a></li>
+                        <li value="Motor & Transport"><a>Motor & Transport</a></li>
+                        <li value="Övrigt"><a>Övrigt</a></li>
+                        <li value="Presenter & Upplevelser"><a>Presenter & Upplevelser</a></li>
+                        <li value="Resor & Biljetter"><a>Resor & Biljetter</a></li>
+                        <li value="Säkerhet & Trygghet"><a>Säkerhet & Trygghet</a></li>
+                        <li value="Samlev & Erotik"><a>Samlev & Erotik</a></li>
+                        <li value="Sport & Fritid"><a>Sport & Fritid</a></li>
+                        <li value="Tjänster"><a>Tjänster</a></li>
+                        <li value="Vitvaror & Hushållsprodukter"><a>Vitvaror & Hushållsprodukter</a></li>
                     </ul>
                 </div>
                 <input type="hidden" name="search_param" value="all" id="search_param">         
                 <input type="text" class="form-control" name="x" placeholder="Sök produkt...">
                 <span class="input-group-btn">
-                    <button id ="searchbtn" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    <button id ="searchbtn1" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+               
                 </span>
-            </div>
-            <div class="panel-group" id = "advancefilterbar" >
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                        <a  href="#collapse1" data-toggle="collapse">Avancerad sökning</a>
-                        </h4>
+        </div>
+	</div>
+
+</div>
+                  
+            <div class="col-md-2 col-md-offset-5" id = "advancedfilterbar" >
+                <div id="divpanel">
+                    <div class="panel-heading" id ="headpanel">
+                        
+                        <a  href="#collapse1" data-toggle="collapse">Visa/dölj utökad sökning</a>
+                       
                     </div>
                     <div id="collapse1" class="panel-collapse collapse">
                       
-                        <div class="panel-footer">soon.jpg</div>
+                        <div class="panel-footer" id ="footpanel">soon.jpg</div>
                     </div>
                 </div>
             </div>
-        </div>
-    
+        
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     
-
-    
-    
+        
+        
+        
     
     
     
@@ -102,7 +158,7 @@
     <div class="container" id ="filtercontainer">
         <div id = "dropcontainer">
             <div class="dropdown1">
-                <button class="dropbtn">Filtrera efter:</button>
+                <button id = "dropadvance" class="dropbtn">Filtrera efter:</button>
                 <div class="dropdown-content">
                     <a href="#">Bokstavsordning</a>
                     <a href="#">Pris</a>
