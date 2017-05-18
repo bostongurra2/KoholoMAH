@@ -892,7 +892,7 @@ body {
 
 @media screen and (max-width: 1600px) {
     .footer {
-        height: 25%;
+        height: 22%;
     }
 }
 
@@ -918,7 +918,7 @@ body {
     }
     
 body {
-      height: 80%;  
+      height: 100%;  
     }
     
 .footer {
