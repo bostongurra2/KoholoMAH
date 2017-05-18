@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Koholo.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</head>
+    
+<body>
+    <div class="logga">
+        <img id="logo" src="logo-koholo.png">
+    </div>
+    
+<nav id="navigation" class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a id="brandname" class="navbar-brand" href="index.html">Koholo.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"> 
+            <li><a href="member-index.html">Mina sidor</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mina butiker<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="member-add-shop.html">Hantera butiker & produkter</a></li>
+            <li><a href="member-info.html">Produktimport</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span> Logga ut</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+    <div class="container">
+        <div class="row">
+            <h3 class="col-sm-10 memberh3">Hantera butiker och produkter</h3>
+            <p class="col-sm-8">Fyll i fälten nedan för att skapa din butik på Koholo!</p>
+            <p class="col-sm-6">OBS! Det du skriver i fälten "Butiksnamn" och "Beskrivning" kommer att bli sökmotoroptimerat vilket gör att din butik och dina produkter har större chans att synas i både vår och i andra sökmotorer.</p>
+        </div>
+    
+    <h3 class="memberh3">Lägg till eller redigera dina webbshoppar</h3>
+    <form class="form-horizontal" role="form" method="post" action="#">
+    <input type="hidden" name="_token" value="#">
+            <div class="form-group">
+                <label for="inputStoreName" class="col-sm-3 control-label">Butiksnamn</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputStoreName" name="store" value="" placeholder="Butiksnamn (sökmotoroptimerat)" required>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="inputLink" class="col-sm-3 control-label">Länk till din nuvarande webbshop </label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputLink" name="storelink" value="" placeholder="Nuvarande länk t.ex http://www.minbutik.se" ><small id="" class="text-muted">(fylls endast i om du har en separat webbutik utanför Koholo)</small>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="inputKoholoName" class="col-sm-3 control-label">Länknamn</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputKoholoName" name="KoholoName" value="" placeholder="Det som visas på Koholo t.ex www.minbutik.se" ><small id="" class="text-muted">(fylls endast i om du har en separat webbutik utanför Koholo)</small>
+                </div>
+            </div>
+                
+            <div class="form-group">
+                <label for="inputStoreBranch" class="col-sm-3 control-label">Branschkategori</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreBranch" name="inputStoreBranch" required>
+                        <option value="" selected>--Välj branschkategori--</option>
+                        <option value="Barn & Leksaker"><a>Barn & Leksaker</a></option>
+                        <option value="Böcker & Tidningar"><a>Böcker & Tidningar</a></option>
+                        <option value="Bygg & Renovering"><a>Bygg & Renovering</a></option>
+                        <option value="Djur"><a>Djur</a></option>
+                        <option value="Elektronik & Datorer"><a>Elektronik & Datorer</a></option>
+                        <option value="Film, Musik & Spel"><a>Film, Musik & Spel</a></option>
+                        <option value="Glasögon & Linser"><a>Glasögon & Linser</a></option>
+                        <option value="Hälsa & Skönhet"><a>Hälsa & Skönhet</a></option>
+                        <option value="Hem & Trädgård"><a>Hem & Trädgård</a></option>
+                        <option value="Hobby & Musikinstrument"><a>Hobby & Musikinstrument</a></option>
+                        <option value="Industri & Verktyg"><a>Industri & Verktyg</a></option>
+                        <option value="Internetvaruhus"><a>Internetvaruhus</a></option>
+                        <option value="Kläder & Mode"><a>Kläder & Mode</a></option>
+                        <option value="Konst & Hantverk"><a>Konst & Hantverk</a></option>
+                        <option value="Kontor & Skola"><a>Kontor & Skola</a></option>
+                        <option value="Mat, Dryck & Tobak"><a>Mat, Dryck & Tobak</a></option>
+                        <option value="Mobil & Telefoni"><a>Mobil & Telefoni</a></option>
+                        <option value="Motor & Transport"><a>Motor & Transport</a></option>
+                        <option value="Övrigt"><a>Övrigt</a></option>
+                        <option value="Presenter & Upplevelser"><a>Presenter & Upplevelser</a></option>
+                        <option value="Resor & Biljetter"><a>Resor & Biljetter</a></option>
+                        <option value="Säkerhet & Trygghet"><a>Säkerhet & Trygghet</a></option>
+                        <option value="Samlev & Erotik"><a>Samlev & Erotik</a></option>
+                        <option value="Sport & Fritid"><a>Sport & Fritid</a></option>
+                        <option value="Tjänster"><a>Tjänster</a></option>
+                        <option value="Vitvaror & Hushållsprodukter"><a>Vitvaror & Hushållsprodukter</a></option>
+                     </select>
+                 </div>
+            </div>
+                        
+            <div class="form-group">
+                <label for="inputStoreOwner" class="col-sm-3 control-label">Ägartyp</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreOwner" name="inputStoreOwner" required>
+                        <option value="" selected>--Välj ägartyp--</option>
+                        <option value="Private"><a>Privatperson</a></option>
+                        <option value="Corporate"><a>Företag</a></option>
+                     </select>
+                 </div>
+            </div>
+                                
+            <div class="form-group">
+                <label for="inputStoreType" class="col-sm-3 control-label">Butiksform</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreType" name="inputStoreType" required>
+                        <option value="" selected>--Välj butiksform--</option>
+                        <option value="OnlineStore"><a>Endast onlinebutik</a></option>
+                        <option value="Online&PhysicalStore"><a>Både fysisk- och onlinebutik</a></option>
+                     </select>
+                 </div>
+            </div>
+        
+            <br>           
+            <div class="form-group">
+                <label for="inputStoreCountry" class="col-sm-3 control-label">Land</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreCountry" name="inputStoreCountry" required>
+                        <option value="" selected>--Välj land--</option>
+                        <option  value="Danmark">Danmark</option>
+                        <option  value="Estland">Estland</option>
+                        <option  value="Finland">Finland</option>
+                        <option  value="Frankrike">Frankrike</option>
+                        <option  value="Holland">Holland</option>
+                        <option  value="Hong Kong">Hong Kong</option>
+                        <option  value="Italien">Italien</option>
+                        <option  value="Jersey">Jersey</option>
+                        <option  value="Kanada">Kanada</option>
+                        <option  value="Kina">Kina</option>
+                        <option  value="Lettland">Lettland</option>
+                        <option  value="Litauen">Litauen</option>
+                        <option  value="Norge">Norge</option>
+                        <option  value="Österrike">Österrike</option>
+                        <option  value="Polen">Polen</option>
+                        <option  value="Portugal">Portugal</option>
+                        <option  value="Slovakien">Slovakien</option>
+                        <option  value="Spanien">Spanien</option>
+                        <option  value="Storbritannien">Storbritannien</option>
+                        <option  value="Sverige">Sverige</option>
+                        <option  value="Tyskland">Tyskland</option>
+                        <option  value="USA">USA</option>
+                     </select>
+                 </div>
+                
+                <label for="inputNewCountry" class="col-sm-1 control-label"></label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputNewCountry" name="NewCountry" value="" placeholder="Ange land">
+                    <small id="" class="text-muted">...eller ange ett nytt land</small>
+                </div>
+            </div>
+                                        
+            <div class="form-group">
+                <label for="inputCounty" class="col-sm-3 control-label">Län</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreType" name="inputStoreType" required>
+                        <option value="" selected>--Välj län--</option>
+                     </select>
+                 </div>
+                
+                <label for="inputNewCounty" class="col-sm-1 control-label"></label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputNewCounty" name="NewCounty" value="" placeholder="Ange län">
+                    <small id="" class="text-muted">...eller ange ett nytt län</small>
+                </div>
+            </div>
+                                                
+            <div class="form-group">
+                <label for="inputStoreCity" class="col-sm-3 control-label">Ort</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreCity" name="inputStoreCity" required>
+                        <option value="" selected>--Välj ort--</option>
+                     </select>
+                 </div>
+                
+                <label for="inputNewCity" class="col-sm-1 control-label"></label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputNewCity" name="NewCity" value="" placeholder="Ange ort">
+                    <small id="" class="text-muted">...eller ange en ny ort</small>
+                </div>
+            </div>
+                                                        
+            <div class="form-group">
+                <label for="inputStoreRegion" class="col-sm-3 control-label">Område</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputStoreRegion" name="inputStoreRegion" required>
+                        <option value="" selected>--Välj område--</option>
+                     </select>
+                 </div>
+                
+                <label for="inputNewCity" class="col-sm-1 control-label"></label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" id="inputNewRegion" name="NewRegion" value="" placeholder="Ange ort">
+                    <small id="" class="text-muted">...eller ange ett nytt område</small>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="inputStorePostCode" class="col-sm-3 control-label">Postkod</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputStorePostCode" name="Postcode" value="" placeholder="Postkod" required>
+                </div>
+            </div>
+                
+            <div class="form-group">
+                <label for="inputStoreAddress" class="col-sm-3 control-label">Gatuadress</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputStoreAddress" name="StoreAddress" value="" placeholder="Adress" required>
+                </div>
+            </div>
+        
+            <br>
+            <div class="form-group">
+                <label for="inputStoreLogo" class="col-sm-3 control-label">Lägg till butikens bild (logotyp)</label>
+                <div class="col-sm-4">
+                    <label class="btn btn-primary" for="my-file-selector"><input id="my-file-selector" type="file"></label>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="inputOrderType" class="col-sm-3 control-label">Beställningsrutin</label>
+                 <div class="col-sm-4">
+                     <select class="form-control" id="inputOrderType" name="inputOrderType" required>
+                        <option value="" selected>--Välj beställningsrutin--</option>
+                        <option  value="OrderType1">1. Kund beställer via beställningsformulär på Koholo.com</option>
+                        <option  value="OrderType2">2. Kund länkas till din ordinarie butiks produktsida för att beställa</option>
+                     </select>
+                     <small id="" class="text-muted">Alt. 2 förutsätter att du anger en extern länk till produktsida i prisfil (PRO-abonnemang)</small>
+                 </div>
+            </div>
+                        
+            <div class="form-group">
+                <label for="inputPaypal" class="col-sm-3 control-label">Koppla butiken till PayPal</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputPayPal" name="PayPal" value="" placeholder="Ange din PayPal e-postadress">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="comment" class="col-sm-3 control-label">Beskrivning (sökmotoroptimerat)</label>
+                <div class="col-sm-5">
+                    <textarea class="form-control" rows="4" id="comment" name="other_comments"></textarea>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-10">
+                    <button type="submit" id="CreateStore" class="btn btn-default">Lägg till butik</button>
+                </div>
+            </div>
+    
+    </div>
+<footer id="sidfot" class="footer">
+        <p id="copyright">Presenteras av Koholo Shopping Network © 2016 koholo.com. Alla rättigheter förbehållna</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
