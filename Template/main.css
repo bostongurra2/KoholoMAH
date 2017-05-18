@@ -890,6 +890,12 @@ body {
     } 
 }
 
+@media screen and (max-width: 1600px) {
+    .footer {
+        height: 25%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     
     .ProductDiv{
