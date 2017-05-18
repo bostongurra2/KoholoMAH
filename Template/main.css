@@ -1,5 +1,8 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
 
+#wrapper {
+    margin-bottom: 20%;
+}
 /*Style för redirectsida*/
 #redirectimg {
     margin-top: 20%;
@@ -905,7 +908,7 @@ body {
 }
     
 #wrapper {
-    height: 3000px;
+    margin-bottom: 40%;
     }
     
 body {
