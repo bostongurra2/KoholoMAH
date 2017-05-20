@@ -198,25 +198,37 @@ a.socialIcon:hover, .socialHoverClass {
 
 /*Style för bildspel*/
 .slick-prev:before, .slick-next:before { 
-    color: #68979B !important;
+    color: lightgray!important;
 }
 
 /*Style för enskilda bilder i bildspelen*/
+.slidedesc {
+    font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
+}
+.slidepic {
+    height: 100%;
+    width: 100%;
+}
 .cl {
-  height:150px;
+  height:175px;
   padding:10px;
 }
 
 .cl-yellow { 
-  background: #73AC96; 
+  background: white;
+  border: 1px solid lightgray;
 }
 
 .cl-blue { 
-  background: #417C81; 
+  background: white;
+  border: 1px solid lightgray;
 }
 
 .cl-red { 
-  background: #68979B; 
+  background: white;
+  border: 1px solid lightgray;
 }
 
 .slick-active { 
