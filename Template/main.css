@@ -992,6 +992,18 @@ body {
     border-top-right-radius: 3px;
 }
 
+#dropadvance1 {
+    
+   margin-bottom:45px;
+    color: white;
+   
+    
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
 
 
 .dropdown1 {
