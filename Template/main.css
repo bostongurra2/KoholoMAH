@@ -787,6 +787,7 @@ p {
     margin-top: 5px;
 }
 /*Style för footer*/
+
 .footer {
     position: fixed;
     margin-top: 5%;
@@ -800,6 +801,21 @@ p {
     bottom: 0;
 }
 
+
+
+#footer {
+    
+    
+    width: 100%;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    height:120px;
+    font-size: 80%;
+    bottom: 0;
+    clear:both;
+}
 
 
 
@@ -838,13 +854,9 @@ p {
     
 }
 
-hmtl {
-    height: auto;
-}
-
-body {
-    height: 88%;
-    width:100%;
+hmtl,body {
+height:100%;    
+min-height:100%;
 }
 
 
