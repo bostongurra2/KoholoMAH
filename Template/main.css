@@ -1137,3 +1137,9 @@ text-align:center;
     margin-top:20%;
     
 }
+
+.pagination>li>a, .pagination>li>span {
+   
+    color:  #417C81;
+    
+}
