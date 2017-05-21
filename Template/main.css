@@ -879,6 +879,7 @@ min-height:100%;
     text-align: center;
     float:left;
     overflow:hidden;
+    margin-bottom:15px;
 }
 
 .ProductDiv>img{
