@@ -39,6 +39,9 @@
     width: 30%;
 }
 
+.modal-footer {
+    margin-bottom: 2%;
+}
 .productinfoheader {
     font-family: 'Lobster', cursive;
     font-size: 250%;
