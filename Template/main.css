@@ -1,5 +1,8 @@
 /*Simons CSS för startsida och bas design för resten av sidan*/
-
+#modallink {
+    text-decoration: none;
+    color: white;
+}
 #wrapper {
     margin-bottom: 20%;
   
