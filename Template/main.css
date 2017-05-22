@@ -863,7 +863,7 @@ min-height:100%;
 }
 
 
-#ProductWrapper{
+.ProductWrapper{
     
     min-height: 85%;
     margin-top:10px;
@@ -912,7 +912,7 @@ min-height:100%;
 
 @media screen and (min-width: 1265px) {
     
-    #ProductWrapper{
+    .ProductWrapper{
         
         margin-left:4%;
 
