@@ -4,6 +4,8 @@
     color: white;
 }
 #wrapper {
+    height: auto;
+    min-height: 100%;
     margin-bottom: 20%;
   
 }
@@ -867,6 +869,7 @@ min-height:100%;
     
     min-height: 85%;
     margin-top:10px;
+    margin-bottom: 20%;
     clear:both;
  
 }
