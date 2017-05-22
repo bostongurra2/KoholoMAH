@@ -865,7 +865,7 @@ min-height:100%;
 }
 
 
-#ProductWrapper{
+.ProductWrapper{
     
     min-height: 85%;
     margin-top:10px;
