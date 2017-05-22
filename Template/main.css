@@ -1148,6 +1148,7 @@ text-align:center;
 
 }
 #Butik{
+    vertical-align: middle;
     position:absolute;
     bottom:0;
     text-align: center;
@@ -1157,7 +1158,7 @@ text-align:center;
 }
 .shoppic{
     
-    max-height: 100%;
+  max-height: 100%;
   max-width: 100%;
   width: auto;
   height: auto;
