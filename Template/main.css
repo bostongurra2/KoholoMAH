@@ -6,7 +6,7 @@
 #wrapper {
     height: auto;
     min-height: 100%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
   
 }
 /*Style för redirectsida*/
@@ -367,13 +367,14 @@ a.socialIcon:hover, .socialHoverClass {
 
 /*Style för kategoriknapp*/
 #categorybtn {
-    color: white;;
-    background-color: dimgray;
+    color: gray;
+    background-color: white;
     border-color: #ccc;
+    width: 150px;
 }
 
 #categorybtn:hover {
-    background-color: darkgray;
+    background-color: white;
 }
 
 /*Style för "Koholo.com" i menyn*/
