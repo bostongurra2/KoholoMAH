@@ -1155,3 +1155,14 @@ text-align:center;
     color:  #417C81;
     
 }
+
+.SpecDiv{
+    
+    
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  
+    
+}
