@@ -230,10 +230,10 @@ a.socialIcon:hover, .socialHoverClass {
 
 .cl {
   height:175px;
-  width: 230px;
-  display: inline-block;
+  padding:10px;
+  display: block;
   vertical-align: top; /*not required*/
-  position: relative;
+  
 }
 
 .cl-yellow { 

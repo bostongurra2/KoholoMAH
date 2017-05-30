@@ -15,7 +15,7 @@ $slickEl.slick({
   infinite: true,
   autoplay: true,
   autoplaySpeed: 4000,
-  arrows: true,
+  arrows: false,
   responsive: [
     {
       breakpoint: 768,
