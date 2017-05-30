@@ -229,7 +229,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .cl {
-  height:175px;
+  height: 175px;
   padding:10px;
   display: block;
   vertical-align: top; /*not required*/
@@ -369,7 +369,7 @@ a.socialIcon:hover, .socialHoverClass {
     color: gray;
     background-color: white;
     border-color: #ccc;
-    width: 150px;
+    width: 110px;
 }
 
 #categorybtn:hover {
