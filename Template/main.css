@@ -4,7 +4,7 @@
     color: white;
 }
 #wrapper {
-    height: auto;
+    height: 100%;
     position: relative;
   
 }
@@ -819,7 +819,7 @@ p {
     font-size: 80%;
     bottom: 0;
     clear:both;
-    position: fixed;
+    position: relative;
 }
 
 
@@ -859,9 +859,9 @@ p {
     
 }
 
-hmtl,body {
-height:100%;    
-min-height:100%;
+html ,body {
+    height:100%;    
+    min-height:100%;
 }
 
 
@@ -936,6 +936,7 @@ min-height:100%;
 @media screen and (max-width: 900px) {
     
     #wrapper {
+        height: auto;
         position: static;
     }
     
