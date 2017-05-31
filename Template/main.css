@@ -234,6 +234,7 @@ a.socialIcon:hover, .socialHoverClass {
   padding:10px;
   display: block;
   vertical-align: top; /*not required*/
+  position: relative;
   
 }
 
@@ -254,7 +255,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .slick-active { 
-  padding: 20px 0; 
+  padding: 20px 5px; 
 }
 
 .slick-center { 
@@ -262,7 +263,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .slick-slide:not(.slick-active) { 
-  margin: 20px 0; 
+  margin: 20px 5px; 
 }
 
 .child { 
