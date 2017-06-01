@@ -34,7 +34,7 @@
 }
 .modalimage {
     position: relative;
-    bottom: 120px;
+    bottom: 100px;
     float: right;
     width: 30%;
 }
@@ -1112,13 +1112,6 @@ font-size:12px;
     font-weight: bold;
     
 }
-
-#Brand>img{
-   
-    height:15px;
-    
-}
-
 
 
 .pager{
