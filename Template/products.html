@@ -65,40 +65,42 @@
           <div class="container">
     <div class="row">
         
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-lg-8 col-md-offset-2">
 		    <div class="input-group">
                 <div class="input-group-btn search-panel">
-                    <button type="button" id="categorybtn" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <select type="button" id="categorybtn" class="btn btn-default selectpicker" data-toggle="dropdown">
                     	<span id="search_concept">Kategori</span> <span class="caret"></span>
-                    </button>
+                    
                     <ul class="dropdown-menu scrollable-menu" role="menu">
-                        <li value="Barn & Leksaker"><a>Barn & Leksaker</a></li>
-                        <li value="Böcker & Tidningar"><a>Böcker & Tidningar</a></li>
-                        <li value="Bygg & Renovering"><a>Bygg & Renovering</a></li>
-                        <li value="Djur"><a>Djur</a></li>
-                        <li value="Elektronik & Datorer"><a>Elektronik & Datorer</a></li>
-                        <li value="Film, Musik & Spel"><a>Film, Musik & Spel</a></li>
-                        <li value="Glasögon & Linser"><a>Glasögon & Linser</a></li>
-                        <li value="Hälsa & Skönhet"><a>Hälsa & Skönhet</a></li>
-                        <li value="Hem & Trädgård"><a>Hem & Trädgård</a></li>
-                        <li value="Hobby & Musikinstrument"><a>Hobby & Musikinstrument</a></li>
-                        <li value="Industri & Verktyg"><a>Industri & Verktyg</a></li>
-                        <li value="Internetvaruhus"><a>Internetvaruhus</a></li>
-                        <li value="Kläder & Mode"><a>Kläder & Mode</a></li>
-                        <li value="Konst & Hantverk"><a>Konst & Hantverk</a></li>
-                        <li value="Kontor & Skola"><a>Kontor & Skola</a></li>
-                        <li value="Mat, Dryck & Tobak"><a>Mat, Dryck & Tobak</a></li>
-                        <li value="Mobil & Telefoni"><a>Mobil & Telefoni</a></li>
-                        <li value="Motor & Transport"><a>Motor & Transport</a></li>
-                        <li value="Övrigt"><a>Övrigt</a></li>
-                        <li value="Presenter & Upplevelser"><a>Presenter & Upplevelser</a></li>
-                        <li value="Resor & Biljetter"><a>Resor & Biljetter</a></li>
-                        <li value="Säkerhet & Trygghet"><a>Säkerhet & Trygghet</a></li>
-                        <li value="Samlev & Erotik"><a>Samlev & Erotik</a></li>
-                        <li value="Sport & Fritid"><a>Sport & Fritid</a></li>
-                        <li value="Tjänster"><a>Tjänster</a></li>
-                        <li value="Vitvaror & Hushållsprodukter"><a>Vitvaror & Hushållsprodukter</a></li>
+                        <option value="Default">Kategori</option>
+                        <option value="Barn & Leksaker">Barn & Leksaker</option>
+                        <option value="Böcker & Tidningar">Böcker & Tidningar</option>
+                        <option value="Bygg & Renovering">Bygg & Renovering</option>
+                        <option value="Djur">Djur</option>
+                        <option value="Elektronik & Datorer">Elektronik & Datorer</option>
+                        <option value="Film, Musik & Spel">Film, Musik & Spel</option>
+                        <option value="Glasögon & Linser">Glasögon & Linser</option>
+                        <option value="Hälsa & Skönhet">Hälsa & Skönhet</option>
+                        <option value="Hem & Trädgård">Hem & Trädgård</option>
+                        <option value="Hobby & Musikinstrument">Hobby & Musikinstrument</option>
+                        <option value="Industri & Verktyg">Industri & Verktyg</option>
+                        <option value="Internetvaruhus">Internetvaruhus</option>
+                        <option value="Kläder & Mode">Kläder & Mode</option>
+                        <option value="Konst & Hantverk">Konst & Hantverk</option>
+                        <option value="Kontor & Skola">Kontor & Skola</option>
+                        <option value="Mat, Dryck & Tobak">Mat, Dryck & Tobak</option>
+                        <option value="Mobil & Telefoni">Mobil & Telefoni</option>
+                        <option value="Motor & Transport">Motor & Transport</option>
+                        <option value="Övrigt">Övrigt</option>
+                        <option value="Presenter & Upplevelser">Presenter & Upplevelser</option>
+                        <option value="Resor & Biljetter">Resor & Biljetter</option>
+                        <option value="Säkerhet & Trygghet">Säkerhet & Trygghet</option>
+                        <option value="Samlev & Erotik">Samlev & Erotik</option>
+                        <option value="Sport & Fritid">Sport & Fritid</option>
+                        <option value="Tjänster">Tjänster</option>
+                        <option value="Vitvaror & Hushållsprodukter">Vitvaror & Hushållsprodukter</option>
                     </ul>
+                        </select>
                 </div>
                 <input type="hidden" name="search_param" value="all" id="search_param">         
                 <input type="text" class="form-control" name="x" placeholder="Sök produkt...">
@@ -209,7 +211,7 @@
     <div class="container" id ="filtercontainer">
         <div id = "dropcontainer">
             <div class="dropdown1">
-                <button id = "dropadvance" class="dropbtn">Filtrera efter:</button>
+                <button id = "dropadvance" class="dropbtn">Sortera efter:</button>
                 <div class="dropdown-content">
                     <a href="#">Bokstavsordning</a>
                     <a href="#">Pris</a>
